@@ -17,6 +17,9 @@
         #elif defined __arm__
                 #define TARGET_SIZE BITS_32
                 #define PLATFORM "arm linux"
+        #elif defined __aarch64__
+                #define TARGET_SIZE BITS_64
+                #define PLATFORM "arm (64 bit) linux"
         #else
                 #define PLATFORM "invalid"
                 #error "unsupported architecture"
