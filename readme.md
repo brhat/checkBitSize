@@ -2,7 +2,7 @@
 This little program tells you the size of size_t and void*
 # Compilation
 ## Linux
-On Linux, just run gcc on your platfrom:
+On Linux, just run gcc on your platform:
 
 gcc -o checkbitsize checkBitSize.c
 
